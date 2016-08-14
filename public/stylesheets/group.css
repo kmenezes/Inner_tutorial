@@ -1,0 +1,86 @@
+@font-face {
+  font-family: CustomFont;;
+  src: url('/fonts/Adequate-ExtraLight.ttf');
+}
+h2{
+
+}
+body{
+background-image:url('/images/wrapper.png');
+padding:5%;
+
+}
+#wrap{
+  padding-top:60px;
+  padding-bottom:80px;
+  padding-left:40px;
+    padding-right:40px;
+}
+
+.help-block{
+font-size: 12px;
+
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: gold -moz-use-text-color gold;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 10px 85px 0;
+opacity: 0.2;
+}
+#wrapper{
+  color:white;
+  font-family:CustomFont;
+  font-size: 30px;
+border:1px solid white;
+
+ border-color: white;
+ padding-right:50px;
+padding-left: 50px;
+padding-top: 40px;
+opacity:1;
+border-radius: 100px;
+}
+
+#inputs{
+  padding-top: 50px;
+  font-size: 20px;
+
+}
+
+.form-group{
+  padding-bottom:80px;
+}
+#submitter{
+  background-color: none;
+  color:white;
+  border-color: white;
+  border-width: thin;
+  font-size: 20px;
+border-radius: 5px;
+
+}
+#submitter:active {
+  background-color: #fff;
+  color: #000;
+  transition: border-color 0.4s ease-out,
+             color 0.4s ease-in;
+}
+
+#submitter:hover {
+  background-color: #fff;
+  color: #000;
+  transition: border-color 0.4s ease-out,
+             color 0.4s ease-in;
+
+}
+#move{
+padding-left: 40%;
+padding-bottom:40px;
+}
